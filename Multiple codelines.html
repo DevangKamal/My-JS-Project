@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body { background-color: whitesmoke;}
+        h1, h2 ,h3 { text-align: center;
+             font-size: 50px;
+        color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;}
+    p {     line-height: 1.5;
+        color: whitesmoke;
+    }
+    </style>
+    <title>Multiple Codelines</title>
+</head>
+
+<body>
+    <div class="card" style="width:500px; height:auto; background-color: maroon;">
+        <h1> Codelines</h1>
+        <img id="demo4" src="" width="50px" height="30px">
+        <p id="demo1"></p>
+        <h2 id="demo2"></h2>
+        <p id="demo3"></p>
+        <button type="button" onclick="myFunction()">Click</button>
+    </div>
+
+    <script>
+        function myFunction() {
+            document.getElementById("demo4").innerHTML = "E:\Users\HP\OneDrive\Desktop\CSS Projects\assests\Images\IMG_20220716_165859.jpg";
+            document.getElementById("demo1").innerHTML = "Here we discuss about the syntax method for the multiple codelines in the javascript.";
+            document.getElementById("demo2").innerHTML = "Syntax :";
+            document.getElementById("demo3").innerHTML = "We should write the multiple lines in the single tag by using the Semicolon (;) . In JS semicolon seperate the code line to each other.";
+        }
+    </script>
+</body>
+
+</html>
